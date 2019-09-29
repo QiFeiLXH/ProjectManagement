@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GroovyStudy/GroovyStudy.iml" filepath="$PROJECT_DIR$/GroovyStudy/GroovyStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KtStudy/KtStudy.iml" filepath="$PROJECT_DIR$/KtStudy/KtStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/LambdaStudy/LambdaStudy.iml" filepath="$PROJECT_DIR$/LambdaStudy/LambdaStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/OptionalStudy/OptionalStudy.iml" filepath="$PROJECT_DIR$/OptionalStudy/OptionalStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Springboot-Integration/Springboot-Integration.iml" filepath="$PROJECT_DIR$/Springboot-Integration/Springboot-Integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/StreamStudy/StreamStudy.iml" filepath="$PROJECT_DIR$/StreamStudy/StreamStudy.iml" />
     </modules>
   </component>
