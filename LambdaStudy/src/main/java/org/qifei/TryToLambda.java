@@ -3,6 +3,7 @@ package org.qifei;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.function.Predicate;
 
 /**
  * @BelongsProject: ProjectManagement
@@ -88,4 +89,15 @@ public class TryToLambda {
         });
         thread1.start();
     }
+
+    @Test
+    public void atLeast5(){
+        Predicate<Integer> atleast5 = new Predicate<Integer>() {
+            @Override
+            public boolean test(Integer param) {
+                return param > 5;
+            }
+        };
+    }
+
 }
