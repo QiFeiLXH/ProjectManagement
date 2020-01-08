@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <dependencies>
 
+        <!--spring5-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -17,9 +18,37 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>5.1.9.RELEASE</version>
+            <version>5.1.6.RELEASE</version>
             <scope>compile</scope>
         </dependency>
+
+        <!--spring4-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.1.9.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>4.1.9.RELEASE</version>
+        </dependency>
+
+
+        <!--spring3-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>3.2.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>3.2.3.RELEASE</version>
+        </dependency>
+
+
+
     </dependencies>
 
 
